@@ -1,5 +1,5 @@
 # ERA-Session-15
-## Huggingface model link <a href="https://huggingface.co/SV12/yolov9_object_detection_on_custom_dataset/tree/main">Link</a>
+## Huggingface model <a href="https://huggingface.co/SV12/yolov9_object_detection_on_custom_dataset/tree/main">Link</a>
 
 ## Training Logs
 ```
