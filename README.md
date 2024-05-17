@@ -1,7 +1,7 @@
 # ERA-Session-15
-# Huggingface model link
+## Huggingface model link
 
-# Training Logs
+## Training Logs
 ```
  Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
        0/24      13.5G      1.434      4.064     0.9123        528        640: 100% 13/13 [00:48<00:00,  3.76s/it]
@@ -146,13 +146,13 @@ gelan-c summary: 467 layers, 25414044 parameters, 0 gradients, 102.5 GFLOPs
                referee         38         89      0.725      0.769      0.797      0.511
 ```
 
-# Loss Curves
+## Loss Curves
 ![image](https://github.com/ShubhamVerma16/ERA-Session-15/assets/46774613/93463a2c-dafa-4fff-881f-a1b8b046a117)
 
-# Confusionh matrix
+## Confusionh matrix
 ![image](https://github.com/ShubhamVerma16/ERA-Session-15/assets/46774613/0173f7aa-9943-4237-9105-428bb9ad92d2)
 
-# Custom Model Validation
+## Custom Model Validation
 ```
  Class     Images  Instances          P          R      mAP50   mAP50-95: 100% 2/2 [00:06<00:00,  3.12s/it]
                    all         38        905       0.91      0.689      0.759      0.528
@@ -163,6 +163,6 @@ gelan-c summary: 467 layers, 25414044 parameters, 0 gradients, 102.5 GFLOPs
 Speed: 0.1ms pre-process, 32.8ms inference, 29.3ms NMS per image at shape (32, 3, 640, 640)
 ```
 
-# Custom Model Inference
+## Custom Model Inference
 ![image](https://github.com/ShubhamVerma16/ERA-Session-15/assets/46774613/b9546779-6309-4c68-b722-6728cff192a0)
 
